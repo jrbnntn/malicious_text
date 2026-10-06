@@ -8,7 +8,7 @@ from sklearn.pipeline import Pipeline
 from .data import PROJECT_ROOT
 
 
-MODEL_PATH = PROJECT_ROOT / "data" / "processed" / "baseline_pipeline.joblib"
+MODEL_PATH = PROJECT_ROOT / "models" / "baseline_v1.joblib"
 SPAM_THRESHOLD = 0.5
 
 
