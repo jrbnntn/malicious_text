@@ -1,10 +1,8 @@
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import AsyncIterator
-
 from fastapi import FastAPI, Request
 from fastapi.staticfiles import StaticFiles
-
 from detector.predict import MODEL_PATH, SPAM_THRESHOLD, _load_model
 from .schemas import PredictRequest, PredictResponse
 
